@@ -42,7 +42,7 @@ FORM.addEventListener('submit', (e) => {
 });
 
 // Geting Cafes
-DB.collection('cafes').get().then((snapshot) => {
+DB.collection('cafes').where('city', '==', 'Addis Ababa').orderBy('name').get().then((snapshot) => {
 	snapshot.docs.forEach((doc) => {
 		renderCafe(doc);
 	});
