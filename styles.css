@@ -64,7 +64,7 @@ li div{
 
 form input{
     float: left;
-    width: 38%;
+    width: 30%;
     margin: 0;
     border: 0;
     border-bottom: 1px solid #eee;
@@ -90,7 +90,7 @@ form:after{
 
 button{
     border: 0;
-    background: #fff;
+    background: #c2c2c2;
     border-radius: 10px;
     padding: 13px;
     width: 14%;
@@ -98,5 +98,10 @@ button{
     font-weight: bold;
     font-family: ubuntu;
     letter-spacing: 1px;
-    color: #999;
+    color: #fff;
+}
+#cancel{
+    display: none;
+    background: #fafafa;
+    color: black;
 }
